@@ -1,8 +1,61 @@
-.heading-css {
- color: green;
+body, html {
+    height: 100%;
 }
 
-.content-css {
- font-weight: bold;
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {  
+    background: url(img/background.gif) no-repeat #cccccc;
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    height: 100%;
+    -webkit-filter: blur(8px);
+    
+}
+
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    align-content: center;
+}
+  
+.column {
+    float: left;
+    padding: 10px;
+    
+}
+
+.left {
+    width: 60%;
+}
+  
+.right {
+    width: 40%;
+}
+
+.name {
+ color: black;
+}
+
+.job {
+font-size: 1vw;
+ color: orange;
+ letter-spacing: 0.3vw;
+ font-family: "Montserrat", "Quicksand", sans-serif;
+ text-transform: uppercase;
+}
+
+img {
+    border-radius: 12vw;
+    width: 15vw;
+    height: 15vw;
 }
 
