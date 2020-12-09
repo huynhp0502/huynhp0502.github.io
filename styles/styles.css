@@ -1,3 +1,8 @@
-h1 .title-css {
+.heading-css {
  color: green;
 }
+
+.content-css {
+ font-weight: bold;
+}
+
